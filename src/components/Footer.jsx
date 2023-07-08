@@ -15,7 +15,26 @@ const Footer = () => {
         </span>
       </div>
       <div className="flex flex-col md:flex-row justify-between py-3 md:py-0 md:px-[15px]  ">
-        <div className="flex justify-items-center "></div>
+        <div className="flex justify-center ">
+          {quickLinks.map((left, index) => (
+            <span
+              key={index}
+              className="text-[#70767a] text-[12px] md:text-[17px] leading-none p-[10px] md:p-[15px] "
+            >
+              {left}
+            </span>
+          ))}
+        </div>
+        <div className="flex justify-center ">
+          {settingMenu.map((right, index) => (
+            <span
+              key={index}
+              className="text-[#70767a] text-[12px] md:text-[17px] leading-none p-[10px] md:p-[15px] "
+            >
+              {right}
+            </span>
+          ))}
+        </div>
       </div>
     </div>
   );
