@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="flex py-[15px] md:px-[30px] border-b border-[#dadce0]  ">
         <span
           className="text-[#70767a]
-        text-[17px] leading-none "
+        text-[15px] leading-none "
         >
           Nepal
         </span>
@@ -19,7 +19,7 @@ const Footer = () => {
           {quickLinks.map((left, index) => (
             <span
               key={index}
-              className="text-[#70767a] text-[12px] md:text-[17px] leading-none p-[10px] md:p-[15px] "
+              className="text-[#70767a] text-[12px] md:text-[14px] leading-none p-[10px] md:p-[15px] "
             >
               {left}
             </span>
@@ -29,7 +29,7 @@ const Footer = () => {
           {settingMenu.map((right, index) => (
             <span
               key={index}
-              className="text-[#70767a] text-[12px] md:text-[17px] leading-none p-[10px] md:p-[15px] "
+              className="text-[#70767a] text-[12px] md:text-[14px] leading-none p-[10px] md:p-[15px] "
             >
               {right}
             </span>
